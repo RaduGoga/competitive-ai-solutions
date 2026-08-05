@@ -1,0 +1,28 @@
+#ignore everything but let git track directories so that the whitelist can work
+*
+!*/
+
+# things that get commited
+!*.ipynb
+!*.py
+!*.md
+!.gitignore
+!.gitattributes
+!LICENSE
+!requirements.txt
+
+#other random ignores
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+catboost_info/
+runs/
+lightning_logs/
+wandb/
+mlruns/
+.vscode/
+.idea/
+.env
+.DS_Store
+desktop.ini
+Thumbs.db

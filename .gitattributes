@@ -1,0 +1,4 @@
+# this file fixes some general problems with my repo
+
+* text=auto eol=lf
+*.ipynb -text linguist-language=Jupyter\ Notebook
